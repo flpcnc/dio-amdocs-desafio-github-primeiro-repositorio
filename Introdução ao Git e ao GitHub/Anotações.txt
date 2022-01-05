@@ -1,0 +1,38 @@
+# Primeiros Passos no GIT / GITHUB
+
+## LINKS ÚTEIS
+
+ - [Site Para Download do Git](https://git-scm.com/)
+ 
+ - [Comandos Básicos do Git](https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git?ppc_campaign=google_performance_max&gclid=Cj0KCQiAoNWOBhCwARIsAAiHnEjWIHoiHeMd-zrCjQ3jEQ1leK_YYXpEwnD7DEAZyMw6BpLpxbU14KwaAhqTEALw_wcB)
+
+## COMANDOS BÁSICOS MUITO ÚTEIS DO GIT E EXEMPLOS
+
+### git config (utilizado para definir configurações específicas: e-mail, algoritmo preferido para diff, nome de usuário e formato de arquivo etc)
+
+ - git config --global user.email xxx@xxx.com (Preferencialmente igual ao e-mail utilizado no seu github)
+
+ - git config --global user.name (Preferencialmente igual ao nick utilizado no seu github)
+
+### git init (Este comando é usado para criar um novo repositório GIT)
+
+ - git init
+
+### git add (usado para adicionar arquivos ao índice)
+
+ - git add temp.txt e/ou git add -A e/ou  git add .
+ 
+### git commit (utilizado para confirmar as alterações. Mas atenção que quaisquer alterações efetuadas não irão ainda para o repositório remoto)
+
+ - git commit –m “coloque sua mensagem aqui”
+
+### git push (Comando básico mais usados. Envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho)
+
+ - git push origin main e/ou git push origin master dependendo da versão do seu Git
+ 
+### git status (Exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados)
+
+- git status
+
+
+
